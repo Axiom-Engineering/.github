@@ -1,45 +1,82 @@
 # Axiom Engineering 🛰️
 
-**Axiom** is a high-performance, Cloud-Native Knowledge Intelligence Platform designed for modern engineering teams. It centralizes tribal knowledge, enforces coding standards, and accelerates onboarding through a distributed AI-powered ecosystem.
+**Axiom** is a high-performance, cloud-native **Knowledge Intelligence Platform** built for **companies, startups, and freelance engineering teams**.  
+It centralizes team knowledge, enforces coding standards, and accelerates onboarding using a distributed AI-powered ecosystem.
 
 ---
 
 ### 🏛️ System Architecture
-Axiom is built on a **Polyglot Microservices Architecture**, ensuring high availability and independent scalability of AI workloads.
+Axiom is built on a **polyglot microservices architecture**, ensuring high availability and independent scalability across engineering teams of any size.
 
-- **[axiom-service-core](https://github.com/Axiom-Engineering/axiom-service-core)**: The Enterprise Core. Built with **Java & Spring Boot** to manage security, RBAC, and business logic.
-- **[axiom-service-ai](https://github.com/Axiom-Engineering/axiom-service-ai)**: The AI Brain. A **Python-based RAG service** using LangChain and Vector Databases for project-specific intelligence.
-- **[axiom-app-web](https://github.com/Axiom-Engineering/axiom-app-web)**: The Command Center. A professional **React & TypeScript** dashboard for Admins and team members.
-- **[axiom-app-mobile](https://github.com/Axiom-Engineering/axiom-app-mobile)**: The Mobile Assistant. A **React Native** application providing instant access for engineers on the go.
-- **[axiom-infra-aws](https://github.com/Axiom-Engineering/axiom-infra-aws)**: The Backbone. **Dockerized** environments managed via CI/CD pipelines on **AWS**.
+- **[axiom-service-core](https://github.com/Axiom-Engineering/axiom-service-core)**  
+  Built with **Java and Spring Boot** to manage authentication, RBAC, and core business logic.
+
+- **[axiom-service-ai](https://github.com/Axiom-Engineering/axiom-service-ai)**  
+  A **Python-based RAG service** using LangChain and vector databases to provide project-specific and company-specific intelligence.
+
+- **[axiom-app-web](https://github.com/Axiom-Engineering/axiom-app-web)**  
+  A professional **React and TypeScript** web dashboard for admins, team members, and freelance engineers.
+
+- **[axiom-app-mobile](https://github.com/Axiom-Engineering/axiom-app-mobile)**  
+  A **React Native** mobile app enabling engineers to access knowledge instantly while on the move.
+
+- **[axiom-infra-aws](https://github.com/Axiom-Engineering/axiom-infra-aws)**  
+  **Dockerized infrastructure** managed via CI/CD pipelines and deployed on **AWS**.
 
 ---
 
 ### 🚀 Key Capabilities
-- **RAG-Powered Intelligence:** Real-time retrieval of project documentation, coding standards, and project-specific business domain knowledge.
-- **Standards Enforcement:** Automating the dissemination of company-wide engineering protocols and best practices.
-- **Zero-Friction Onboarding:** Reducing the "Time-to-PR" for new hires by providing instant answers to technical queries.
-- **Secure & Scalable:** Enterprise-grade security with an architecture designed to scale alongside your organization.
+- **RAG-Powered Intelligence**  
+  Instant access to project documentation, coding standards, architecture decisions, and business logic.
+
+- **Engineering Standards Enforcement**  
+  Ensures consistent best practices across companies and distributed freelance teams.
+
+- **Fast & Frictionless Onboarding**  
+  Reduces onboarding time for new hires and contract engineers by answering technical questions instantly.
+
+- **Secure & Scalable by Design**  
+  Enterprise-grade security and cloud-native scalability suitable for both small teams and growing organizations.
+
+---
+
+### 👥 Who Is This For?
+Axiom is designed for engineering-driven organizations that struggle with knowledge sharing, onboarding, and maintaining consistent development standards.
+
+- **Software Companies & Enterprises**  
+  Teams with large or complex codebases that need centralized, searchable engineering knowledge.
+
+- **Startups & Scale-ups**  
+  Fast-growing teams that onboard engineers frequently and require quick access to project context.
+
+- **Freelance & Contract Engineering Teams**  
+  Distributed or outsourced teams that need rapid onboarding, clear standards, and minimal knowledge transfer friction.
+
+- **Remote & Distributed Teams**  
+  Teams working across time zones that require 24/7 access to reliable project intelligence.
+
+> **Not recommended for:** Solo developers or non-technical teams.
 
 ---
 
 ### 🛠️ Tech Stack
 | Component | Technologies |
-| :--- | :--- |
+|---------|--------------|
 | **Backend** | Java 21, Spring Boot 3, Spring Security, PostgreSQL |
-| **AI / ML** | Python 3.11, LangChain, OpenAI/Local LLMs, ChromaDB |
+| **AI / ML** | Python 3.11, LangChain, OpenAI / Local LLMs, ChromaDB |
 | **Frontend** | React, TypeScript, Tailwind CSS, React Native |
 | **Infrastructure** | Docker, AWS (ECS, S3, Aurora), GitHub Actions (CI/CD) |
 
 ---
-### 👐 Open Source & Contributions
-Axiom is an Open Source project. We believe in the power of community-driven engineering to solve knowledge gaps in engineering teams.
 
-- **Contribute:** We welcome Pull Requests for bug fixes, new AI features, or UI improvements.
-- **Issues:** Found a bug? Open an issue in the respective microservice repository.
-- **License:** This project is licensed under the [MIT License](LICENSE).
+### 👐 Open Source & Contributions
+Axiom is an **open-source project** built to help **companies and freelance engineering teams** solve internal knowledge challenges.
+
+- **Contributions**: Pull requests are welcome for bug fixes, AI improvements, and UI enhancements.
+- **Issues**: Please report bugs or feature requests in the relevant microservice repository.
+- **License**: Licensed under the [MIT License](LICENSE).
 
 ---
-*“Axiom: Turning scattered documentation into centralized intelligence.”*
+*“Axiom: Turning scattered team knowledge into centralized intelligence.”*
 
-[Website](https://your-portfolio-link.com) • [Contact Support](mailto:your-email@example.com)
+[Website](https://your-portfolio-link.com) • [Contact](mailto:your-email@example.com)
